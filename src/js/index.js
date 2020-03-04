@@ -8,4 +8,14 @@ import "../style/index.scss";
 
 window.onload = function() {
   console.log("Hello Rigo from the console!");
+
+function randomInterger(excuse) {
+
+let who = ['the dog','my granma','his turtle','my bird'];
+let what = ['eat','pissed','crushed','broked'];
+let when = ['before the class','right in time','when I finished','during my lunch','while I was praying'];
+
+let whoRandom2 = Math.floor(Math.random()*who.length)
+let whatRandom2 = Math.floor(Math.random()*what.length)
+let whenRandom2 = Math.floor(Math.random()*when.length)
 };
